@@ -1,0 +1,31 @@
+# macOS system files
+.DS_Store
+
+# VS Code settings and extensions
+.vscode/
+*.code-workspace
+
+# Node modules (if you use npm for SCSS tools)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Sass cache
+.sass-cache/
+*.map
+
+# Compiled CSS (if you prefer not to track built files)
+css/*.css
+css/*.css.map
+
+# Logs and temporary files
+npm-debug.log*
+*.log
+
+# Dist and build files (if using a build system)
+dist/
+build/
+
+# Environment files (if using any secret keys)
+.env
